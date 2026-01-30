@@ -3,51 +3,80 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <title> Imagens e Links </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formulários</title>
 </head>
-
 
 <body>
 
 <header>
-<h1> Meu portfólio</h1>
- 
-<p>Abaixo estão os links das minhas redes e meu editor de código</p>
+<h1>Contato</h1>
+<p>Preencha esse formulario abaixo para falar com a gente!</p>
 </header>
 
 <hr>
 
 <main>
 
-<section>
-<h2>Links</h2>
+<form action=""> 
 
-<h3>Meu Github</h3>
-<a href="https://github.com/pauloferri-dev" target="_blank" rel="noopener noreferrer"> <img src="imagens/github.png" alt="Logo do Github" width="90"> </a>
+<div> 
 
-<h3>Meu editor de código</h3>
-<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer"> <img src="imagens/vs-code.png" alt="Logo do VS Code" width="90"></a>
-</section>
+<label for="name">Nome</label>
 
-<hr>
+<input type="text"
+id="name"
+name="nome"
+required
+placeholder="Digite seu nome"
+>
 
-<section>
-<h2>Meu futuro carro</h2>
+</div>
+ 
+<br>
 
-<img src="imagens/imagem-fox.png" alt="Carro Fox Msi 1.6" width="200">
-</section>
+<div>
+
+<label for="email">Email</label>
+
+<input type="email"
+id="email"
+name="email"
+required
+placeholder="exemplo@email.com"
+>
+
+</div>
+
+<br>
+
+<div>
+
+    <label for="city">Cidade</label>
+
+    <input type="text"
+    name="Cidade"
+    id="city"
+    required
+    placeholder="Digite sua Cidade"
+    >
+</div>
+
+<br>
+
+<button type="submit">Enviar</button>
+
+</form>    
 
 </main>
 
 <hr>
 
 <footer>
-    <p><strong>Todos os direitos reservados - Paulo-Ferri-Dev</strong></p>
+    <p><strong>Formulário feito por Paulo Ferri</strong></p>
 </footer>
 
 </body>
-
 
 </html>
